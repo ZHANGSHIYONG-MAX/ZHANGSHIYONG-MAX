@@ -15,7 +15,7 @@
         }
         #map {
             width: 100%;
-            height: 1000px;
+            height: 800px;
         }
         #pause-btn {
             position: absolute;
@@ -220,7 +220,7 @@
 	var rightBoundary =550;
 	function startPanning() {
     // 每次开始平移时，将地图重置到初始位置并重置方向为初始方向
-    	map.setView(initialPosition, 3);  // 重置地图到初始位置，5为缩放等级
+    	map.setView(initialPosition, 2);  // 重置地图到初始位置，2为缩放等级
 
     // 启动自动平移
    	 panInterval = setInterval(function() {
